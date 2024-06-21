@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formacion.Azure.Functions.F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos Storage Account", "Demos Storage Account", "{1EDD0754-747D-4926-A89D-70802589498D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.Storage.ConsoleApp1", "Azure.Storage.ConsoleApp1\Azure.Storage.ConsoleApp1.csproj", "{5143EAF6-8F63-43BD-BB55-A3E5A533C5E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure.Storage.ConsoleApp1", "Azure.Storage.ConsoleApp1\Azure.Storage.ConsoleApp1.csproj", "{5143EAF6-8F63-43BD-BB55-A3E5A533C5E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.Storage.ConsoleApp2", "Azure.Storage.ConsoleApp2\Azure.Storage.ConsoleApp2.csproj", "{D6FF2AF1-EDC4-4209-A811-43FBB9718F20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{5143EAF6-8F63-43BD-BB55-A3E5A533C5E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5143EAF6-8F63-43BD-BB55-A3E5A533C5E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5143EAF6-8F63-43BD-BB55-A3E5A533C5E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6FF2AF1-EDC4-4209-A811-43FBB9718F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6FF2AF1-EDC4-4209-A811-43FBB9718F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6FF2AF1-EDC4-4209-A811-43FBB9718F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6FF2AF1-EDC4-4209-A811-43FBB9718F20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +75,7 @@ Global
 		{C896059E-D9AC-4FB7-8C37-43FE4E24D1B5} = {822B22B4-0C20-4E2B-A93C-F3259C8A75F7}
 		{8CA10FB4-0131-4AEA-BDC8-2AFB23FE5DF7} = {822B22B4-0C20-4E2B-A93C-F3259C8A75F7}
 		{5143EAF6-8F63-43BD-BB55-A3E5A533C5E7} = {1EDD0754-747D-4926-A89D-70802589498D}
+		{D6FF2AF1-EDC4-4209-A811-43FBB9718F20} = {1EDD0754-747D-4926-A89D-70802589498D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6BF02C58-2518-47A1-856F-1774A80C525D}
