@@ -33,3 +33,8 @@ namespace Azure.Storage.ConsoleApp2
         }
     }
 }
+
+
+// 1 - client = BlobServiceClient(connectionString) // containers = client.GetBlobContainers // foreach container in containers
+// 2 - containerClient = client.GetBlobContainerClient // blobs = containerClient.GetBlobs // foreach blob in blobs
+// 3 - blobClient = containerClient.GetBlobClient(blob.Name) -
