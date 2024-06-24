@@ -58,8 +58,6 @@ namespace Azure.CosmoDB.ConsoleApp1
         public string descripcion { get; set; }
         public string cantidad { get; set; }
         public string precio { get; set; }
-
-
     }
 
 
