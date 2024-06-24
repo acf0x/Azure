@@ -5,7 +5,7 @@ namespace Azure.Tables.ConsoleApp1
 {
     internal class Program
     {
-        static readonly string connection = "DefaultEndpointsProtocol=https;AccountName=demostorageacf;AccountKey=zIhBTe5Uv5ZlPyI7g7GDvs4vVC6WfXfKOxlQZKSjhJrvrQ1GekTlpssK/mvaqzlqGrDKVDXtx/oL+AStaZGJRw==;EndpointSuffix=core.windows.net";
+        static readonly string connection = "*connectionstring*";
 
         static void Main(string[] args)
         {
