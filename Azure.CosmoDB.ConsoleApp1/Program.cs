@@ -1,11 +1,12 @@
 ﻿using Microsoft.Azure.Cosmos;
+using Microsoft.Azure.Cosmos.Linq;
 
 namespace Azure.CosmoDB.ConsoleApp1
 {
     internal class Program
     {
         static readonly string endPointCosmosDB = "https://demodbacf.documents.azure.com:443/";
-        static readonly string keyCosmosDB = "dSyMWSKNGB24uyG3ltPdQkwPuScmcRlAS3V2dQP3OxttUx6j1sT2f3W5bRsyRHyzI1ZZRhRDyp6rACDbXSJr8g==";
+        static readonly string keyCosmosDB = "AWasayiphFqS7KG2lfQqH8tHny8dAn2LQoA62pxyDEcxX0pSKcrtdtSUZ3NTSlHa72U1nrRGZRE0ACDbifiTOg==";
 
         static CosmosClient clientCosmosDB;
 
@@ -14,7 +15,8 @@ namespace Azure.CosmoDB.ConsoleApp1
             clientCosmosDB = new CosmosClient(endPointCosmosDB, keyCosmosDB);
 
             GetDatabases();
-            CreateRecord("DemoDB", "productos");
+            //CreateRecord("DemoDB", "productos");
+            QueryRecords3("DemoDB", "productos");
         }
 
 
@@ -72,7 +74,83 @@ namespace Azure.CosmoDB.ConsoleApp1
 
             var result2 = clientContainer.CreateItemAsync(producto2, new PartitionKey("Bebidas")).Result;
             Console.WriteLine($"Producto creado con ID {result2.Resource.id}");
+        }
 
+        /// <summary>
+        /// Select all y con <Producto>
+        /// </summary>
+        static void QueryRecords(string databaseName, string containerName)
+        {
+            var clientDatabase = clientCosmosDB.GetDatabase(databaseName);
+            var clientContainer = clientDatabase.GetContainer(containerName);
+
+            // Listado completo de los items en el contenedor
+            string sqlQuery = "SELECT * FROM c";
+
+            var resultIterator = clientContainer.GetItemQueryIterator<Producto>(sqlQuery);
+            while (resultIterator.HasMoreResults)
+            {
+                var productos = resultIterator.ReadNextAsync().Result;
+                foreach (var producto in productos)
+                {
+                    Console.WriteLine($" -> " +
+                      $"{producto.id}# " +
+                      $"{producto.descripcion} " +
+                      $"- {producto.precio.ToString("N2")}");
+                }
+            }
+        }
+
+        /// <summary>
+        /// Precio >= 2 y con <dynamic>
+        /// </summary>
+        static void QueryRecords2(string databaseName, string containerName)
+        {
+            var clientDatabase = clientCosmosDB.GetDatabase(databaseName);
+            var clientContainer = clientDatabase.GetContainer(containerName);
+
+            // Listado de los items en el contenedor con precio >= 2
+            string sqlQuery = "SELECT * FROM c WHERE c.precio >= 2";
+
+            var resultIterator = clientContainer.GetItemQueryIterator<dynamic>(sqlQuery);
+            while (resultIterator.HasMoreResults)
+            {
+                var productos = resultIterator.ReadNextAsync().Result;
+                foreach (var producto in productos)
+                {
+                    Console.WriteLine($" -> " +
+                      $"{producto.id}# " +
+                      $"{producto.descripcion} " +
+                      $"- {producto.precio.ToString("N2")}");
+                }
+            }
+        }
+
+        /// <summary>
+        /// Con LINQ
+        /// </summary>
+        static void QueryRecords3(string databaseName, string containerName)
+        {
+            var clientDatabase = clientCosmosDB.GetDatabase(databaseName);
+            var clientContainer = clientDatabase.GetContainer(containerName);
+
+            // Listado de los items en el contenedor con precio >= 2 con una búsqueda en LINQ
+
+            var resultIterator = clientContainer.GetItemLinqQueryable<Producto>()
+                .Where(c => c.precio >= 2)
+                .ToFeedIterator();
+
+            while (resultIterator.HasMoreResults)
+            {
+                var productos = resultIterator.ReadNextAsync().Result;
+                foreach (var producto in productos)
+                {
+                    Console.WriteLine($" -> " +
+                      $"{producto.id}# " +
+                      $"{producto.descripcion} " +
+                      $"- {producto.precio.ToString("N2")}");
+                }
+            }
         }
 
     }
