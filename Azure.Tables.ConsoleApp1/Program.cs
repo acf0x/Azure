@@ -1,5 +1,4 @@
 ﻿using Azure.Data.Tables;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Azure.Tables.ConsoleApp1
 {
