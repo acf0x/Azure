@@ -6,7 +6,7 @@ using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace Formacion.Azure.Functions.FunctionApp2
+namespace Azure.Functions.FunctionApp2
 {
     public class Function2
     {

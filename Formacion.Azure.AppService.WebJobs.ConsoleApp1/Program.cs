@@ -1,6 +1,6 @@
 ﻿using System.Timers;
 
-namespace Formacion.Azure.AppService.WebJobs.ConsoleApp1
+namespace Azure.AppService.WebJobs.ConsoleApp1
 {
     internal class Program
     {

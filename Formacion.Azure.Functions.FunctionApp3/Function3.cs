@@ -8,7 +8,7 @@ using Microsoft.Win32;
 using Newtonsoft.Json;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace Formacion.Azure.Functions.FunctionApp3
+namespace Azure.Functions.FunctionApp3
 {
     public class Function3
     {

@@ -3,27 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formacion.Azure.AppService.WebJobs.WebUploadFiles", "Formacion.Azure.AppService.WebJobs.WebUploadFiles\Formacion.Azure.AppService.WebJobs.WebUploadFiles.csproj", "{7E3FF3B0-D3FB-4322-A493-723DC6222A22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure.AppService.WebJobs.WebUploadFiles", "Formacion.Azure.AppService.WebJobs.WebUploadFiles\Azure.AppService.WebJobs.WebUploadFiles.csproj", "{7E3FF3B0-D3FB-4322-A493-723DC6222A22}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formacion.Azure.AppService.WebJobs.ConsoleApp1", "Formacion.Azure.AppService.WebJobs.ConsoleApp1\Formacion.Azure.AppService.WebJobs.ConsoleApp1.csproj", "{6C8F9421-0E25-4B8E-B6C2-9D2004D57C9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure.AppService.WebJobs.ConsoleApp1", "Formacion.Azure.AppService.WebJobs.ConsoleApp1\Azure.AppService.WebJobs.ConsoleApp1.csproj", "{6C8F9421-0E25-4B8E-B6C2-9D2004D57C9A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formacion.Azure.AppService.WebJobs.ConsoleApp2", "Formacion.Azure.AppService.WebJobs.ConsoleApp2\Formacion.Azure.AppService.WebJobs.ConsoleApp2.csproj", "{86E4AA84-2006-4E15-B716-01B5EE5A54F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure.AppService.WebJobs.ConsoleApp2", "Formacion.Azure.AppService.WebJobs.ConsoleApp2\Azure.AppService.WebJobs.ConsoleApp2.csproj", "{86E4AA84-2006-4E15-B716-01B5EE5A54F1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos WebJobs", "Demos WebJobs", "{7B6F65D3-59CF-4911-8174-D81B9C28A930}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos Functions", "Demos Functions", "{822B22B4-0C20-4E2B-A93C-F3259C8A75F7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formacion.Azure.Functions.FunctionApp1", "Formacion.Azure.Functions.FunctionApp1\Formacion.Azure.Functions.FunctionApp1.csproj", "{5EDD8B63-1F6F-4D45-87A0-68C60ECD71D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure.Functions.FunctionApp1", "Formacion.Azure.Functions.FunctionApp1\Azure.Functions.FunctionApp1.csproj", "{5EDD8B63-1F6F-4D45-87A0-68C60ECD71D8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formacion.Azure.Functions.FunctionApp2", "Formacion.Azure.Functions.FunctionApp2\Formacion.Azure.Functions.FunctionApp2.csproj", "{C896059E-D9AC-4FB7-8C37-43FE4E24D1B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure.Functions.FunctionApp2", "Formacion.Azure.Functions.FunctionApp2\Azure.Functions.FunctionApp2.csproj", "{C896059E-D9AC-4FB7-8C37-43FE4E24D1B5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formacion.Azure.Functions.FunctionApp3", "Formacion.Azure.Functions.FunctionApp3\Formacion.Azure.Functions.FunctionApp3.csproj", "{8CA10FB4-0131-4AEA-BDC8-2AFB23FE5DF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure.Functions.FunctionApp3", "Formacion.Azure.Functions.FunctionApp3\Azure.Functions.FunctionApp3.csproj", "{8CA10FB4-0131-4AEA-BDC8-2AFB23FE5DF7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos Storage Account", "Demos Storage Account", "{1EDD0754-747D-4926-A89D-70802589498D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure.Storage.ConsoleApp1", "Azure.Storage.ConsoleApp1\Azure.Storage.ConsoleApp1.csproj", "{5143EAF6-8F63-43BD-BB55-A3E5A533C5E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.Storage.ConsoleApp2", "Azure.Storage.ConsoleApp2\Azure.Storage.ConsoleApp2.csproj", "{D6FF2AF1-EDC4-4209-A811-43FBB9718F20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure.Storage.ConsoleApp2", "Azure.Storage.ConsoleApp2\Azure.Storage.ConsoleApp2.csproj", "{D6FF2AF1-EDC4-4209-A811-43FBB9718F20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

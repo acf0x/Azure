@@ -1,4 +1,4 @@
-namespace Formacion.Azure.AppService.WebJobs.WebUploadFiles
+namespace Azure.AppService.WebJobs.WebUploadFiles
 {
     public class Program
     {

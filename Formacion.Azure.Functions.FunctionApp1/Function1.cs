@@ -5,7 +5,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Win32;
 using Newtonsoft.Json;
 
-namespace Formacion.Azure.Functions.FunctionApp1
+namespace Azure.Functions.FunctionApp1
 {
     public class Function1
     {

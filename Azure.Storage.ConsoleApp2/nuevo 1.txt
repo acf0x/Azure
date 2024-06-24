@@ -1,7 +1,4 @@
+test test
 
-exam topics
-udemy azure from zero to hero
-Axazure <- empresa buena
-Deloitte
 
-openbootcamp
+test

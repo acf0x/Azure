@@ -1,4 +1,4 @@
-﻿namespace Formacion.Azure.AppService.WebJobs.ConsoleApp2
+﻿namespace Azure.AppService.WebJobs.ConsoleApp2
 {
     internal class Program
     {
