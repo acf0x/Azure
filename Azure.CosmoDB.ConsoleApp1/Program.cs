@@ -49,4 +49,19 @@ namespace Azure.CosmoDB.ConsoleApp1
         }
 
     }
+
+    public class Producto
+    {
+        public string id { get; set; }
+        public string referencia { get; set; }
+        public string categoria { get; set; }
+        public string descripcion { get; set; }
+        public string cantidad { get; set; }
+        public string precio { get; set; }
+
+
+    }
+
+
+    public record Product(string id, string referencia, string categoria, string descripcion, int cantidad, double precio);
 }
