@@ -4,7 +4,7 @@ namespace Azure.Tables.ConsoleApp1
 {
     internal class Program
     {
-        static readonly string connection = "*connectionstring*";
+        static readonly string connection = "";
 
         static void Main(string[] args)
         {
