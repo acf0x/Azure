@@ -89,6 +89,4 @@ namespace Azure.Tables.ConsoleApp1
         public DateTimeOffset? Timestamp { get; set; }
         public ETag ETag { get; set; }
     }
-
-
 }
