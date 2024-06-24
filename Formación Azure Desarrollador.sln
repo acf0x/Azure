@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos CosmoDB", "Demos Cosm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.CosmoDB.ConsoleApp1", "Azure.CosmoDB.ConsoleApp1\Azure.CosmoDB.ConsoleApp1.csproj", "{3B53A709-B374-48D7-B29B-6F58866864D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.Tables.ConsoleApp1", "Azure.Tables.ConsoleApp1\Azure.Tables.ConsoleApp1.csproj", "{D1D13D7E-92E8-4F0D-BDB4-BB1A07D586CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{3B53A709-B374-48D7-B29B-6F58866864D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B53A709-B374-48D7-B29B-6F58866864D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B53A709-B374-48D7-B29B-6F58866864D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D13D7E-92E8-4F0D-BDB4-BB1A07D586CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D13D7E-92E8-4F0D-BDB4-BB1A07D586CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D13D7E-92E8-4F0D-BDB4-BB1A07D586CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D13D7E-92E8-4F0D-BDB4-BB1A07D586CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +91,7 @@ Global
 		{5143EAF6-8F63-43BD-BB55-A3E5A533C5E7} = {1EDD0754-747D-4926-A89D-70802589498D}
 		{D6FF2AF1-EDC4-4209-A811-43FBB9718F20} = {1EDD0754-747D-4926-A89D-70802589498D}
 		{3B53A709-B374-48D7-B29B-6F58866864D7} = {A4E58A57-CECD-475B-B832-9E7F366A78BC}
+		{D1D13D7E-92E8-4F0D-BDB4-BB1A07D586CC} = {A4E58A57-CECD-475B-B832-9E7F366A78BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6BF02C58-2518-47A1-856F-1774A80C525D}
