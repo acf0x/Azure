@@ -17,8 +17,8 @@ namespace EntraID.ConsoleApp1
             // Generar el objeto aplicación
             ///////////////////////////////////////////
             app = ConfidentialClientApplicationBuilder
-                .Create("")  // id de aplicación cliente
-                .WithClientSecret("")   // clave generada en secretos
+                .Create()  // id de aplicación cliente
+                .WithClientSecret()   // clave generada en secretos
                 .WithAuthority("https://login.microsoftonline.com/b553b4ad-a812-4b1d-8023-93468b1c84a0")   //tenantid (id de directorio inquilino). Tenant es el directorio activo.
                 .Build();
 
