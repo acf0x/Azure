@@ -36,6 +36,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure.AppService.WebJobs.Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure.AppService.WebJobs.WebUploadFiles", "Azure.AppService.WebJobs.WebUploadFiles\Azure.AppService.WebJobs.WebUploadFiles.csproj", "{DB41B8B4-234D-48E0-AA63-79DE5EA07B17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntraID.ConsoleApp1", "EntraID.ConsoleApp1\EntraID.ConsoleApp1.csproj", "{8EE5CA55-00E3-470C-AA92-667F2177D786}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -82,6 +84,10 @@ Global
 		{DB41B8B4-234D-48E0-AA63-79DE5EA07B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB41B8B4-234D-48E0-AA63-79DE5EA07B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB41B8B4-234D-48E0-AA63-79DE5EA07B17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE5CA55-00E3-470C-AA92-667F2177D786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE5CA55-00E3-470C-AA92-667F2177D786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE5CA55-00E3-470C-AA92-667F2177D786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE5CA55-00E3-470C-AA92-667F2177D786}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +103,7 @@ Global
 		{5322D39B-8B71-4688-B90F-78F6548C6D02} = {822B22B4-0C20-4E2B-A93C-F3259C8A75F7}
 		{619EC55C-8BFB-4212-8B0F-587DA419F364} = {7B6F65D3-59CF-4911-8174-D81B9C28A930}
 		{DB41B8B4-234D-48E0-AA63-79DE5EA07B17} = {7B6F65D3-59CF-4911-8174-D81B9C28A930}
+		{8EE5CA55-00E3-470C-AA92-667F2177D786} = {BC6C4EC7-D394-405B-A7BC-F157E974D4CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6BF02C58-2518-47A1-856F-1774A80C525D}
