@@ -67,19 +67,14 @@ namespace EntraID.ConsoleApp1
 
             foreach (var user in result) Console.WriteLine($".NET -> {user.DisplayName} - {user.UserPrincipalName}");
             Console.WriteLine(Environment.NewLine);
-
-
-
         }
     }
 
     public class OData  // clase para deserializar
 
     {
-
         [JsonProperty("odata.metadata")]
         public string Metadata { get; set; }
         public Object Value { get; set; }
-
     }
 }
